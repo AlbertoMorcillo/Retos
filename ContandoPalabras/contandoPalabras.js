@@ -7,7 +7,6 @@
  *   lo resuelvan automáticamente.
  */
 
-// toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
 class Palabra {
     constructor(palabra, numRepiticiones) {
@@ -58,11 +57,3 @@ function mostrarResultados() {
         resultadoDiv.appendChild(parrafo);
     });
 }
-
-
-
-
-// nt resultado = numeroInicial + siguienteNumero;
-//                 System.out.print(", " + resultado);
-//                 numeroInicial = siguienteNumero;
-//                 siguienteNumero = resultado;
